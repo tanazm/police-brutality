@@ -2,10 +2,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoidGFuYXptIiwiYSI6ImNsMWprZGNubjFscGozbHFrcG41d
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/tanazm/cl48mmbpm000b14mot5ubna90',
-    zoom: 3,
     maxZoom: 13,
-    minZoom: 3.5,
-    center: [-99, 38],
+    minZoom: 3.7,
+    center: [-96, 38.7],
     maxBounds: [
       [-180, 15],
       [-30, 72],
